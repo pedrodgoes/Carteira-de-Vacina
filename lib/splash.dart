@@ -8,7 +8,7 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 5,
-      imageBackground: AssetImage("assets/splash.png"),
+      imageBackground: AssetImage("assets/splash.jpeg"),
       photoSize: 100.0,
       loaderColor: Colors.black,
       navigateAfterSeconds: AfterSplash(),
